@@ -1,0 +1,1120 @@
+body, html {
+    line-height: 1.8;
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+    scroll-behavior: smooth;
+}
+
+.backgroundimage {
+    background-image: url("Final.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.h1 {
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float*/
+
+.homeheader {
+    padding-top: 2px;
+}
+
+.navpages li {
+    display: inline;
+}
+
+.navpages li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    display: inline;
+    font-size: 15px;
+}
+
+.navpages li a:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.middleimage h2 {
+    font-family: 'Montserrat';
+    font-size: 34px;
+}
+
+.middleimage p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.portfolioimage {
+    border-radius: 50%;
+    border: 5px solid #378C3F;
+}
+
+.buttons {
+    background: #378C3F;
+    background-size: 200% auto;
+    padding: 0px 35px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    width: 20%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.homefooter {
+    text-align: center;
+    padding-top: 0%;
+}
+
+.homefooter .fa {
+    padding: 25px;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: -40px 2px;
+    border-radius: 50%;
+}
+
+.homefooter .fa:hover {
+    opacity: 0.7;
+}
+
+.homefooter .fa-facebook {
+    background: #A9A9A9;
+    color: #FFFFFF;
+}
+
+.homefooter .fa-linkedin {
+    background: #A9A9A9;
+    color: #FFFFFF;
+}
+
+.homefooter .fa-instagram {
+    background: #A9A9A9;
+    color: #FFFFFF;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrapper {
+        margin-bottom: 100%;
+        margin-right: 10%;
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+
+/*------------------------------------CONTACT---------------------------------------------------------*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_icon*/
+#wrappercontact {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 600px;
+}
+
+.contactheader {
+    background-color: #378C3F;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+}
+
+.contactfooter {
+    text-align: center;
+    padding-top: 0%;
+    height: 5%;
+}
+
+.contactfooter h2 {
+    font-family: 'Montserrat';
+}
+
+.contactfooter p {
+    font-family: 'Montserrat';
+    color: gray;
+}
+
+.contactfooter .fa {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.contactfooter .fa:hover {
+    opacity: 0.7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contactcontainer {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    margin-top: 4%;
+    font-family: 'Montserrat';
+}
+
+.contactcontainer h3 {
+    font-family: 'Montserrat';
+}
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    padding: 10px;
+    padding-top: 0%;
+    font-family: 'Montserrat';
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.input-container i {
+    position: absolute;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-radius: 20px;
+    border-style: ridge;
+}
+
+/* Set a style for the submit button */
+
+.btn {
+    background-color: #378C3F;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.message {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: auto;
+        height: auto;
+        float: none;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .message {
+        float: none;
+        display: block;
+        border-width: 0 0 2px;
+        border-color: grey;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactcontainer {
+        width: auto;
+        height: auto;
+        float: none;
+        display: block;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrappercontact {
+        display: block;
+        margin-bottom: 100%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+/*----------------------------------ABOUT--------------------------------------------------------------*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_progressbar_size*/
+#wrapperabout {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    height: 600px;
+}
+
+.aboutcontainer {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 2px;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat';
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+/* Create two columns that float next to eachother */
+
+.aboutcolumn {
+    float: left;
+    width: 50%;
+    margin-top: 2px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-top: 0%;
+    font-family: 'Montserrat';
+    overflow: auto;
+    position: relative;
+}
+
+/* Clear floats after the columns */
+
+.aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-shadow: 5px #A9A9A9;
+}
+
+.aboutright {
+    float: right;
+    font-family: 'Montserrat';
+    color: #378C3F;
+}
+
+.aboutleft {
+    float: left;
+    color: #378C3F;
+    font-family: 'Montserrat';
+}
+
+.aboutheading h2 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #2C2C2C;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutcontainer {
+        display: block;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+    .aboutcolumn {
+        display: block;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrapperabout {
+        display: block;
+        margin-bottom: 60%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+/*--------------------------------------WORKEXP Page CSS-----------------------------------------*/
+
+#wrapperworkex {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 600px;
+}
+
+#wrappereducation {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 600px;
+}
+
+/* Create two columns that float next to eachother */
+
+.workexcolumn {
+    float: left;
+    width: 60%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-top: 0%;
+    font-family: 'Montserrat';
+    overflow: auto;
+    position: relative;
+    height: 25%;
+    -moz-box-shadow: 0px -1px 6px 4px #ccc;
+    -webkit-box-shadow: 0px -1px 6px 4px #ccc;
+    box-shadow: 0px -1px 6px 4px #ccc;
+}
+
+.workexcolumndate {
+    float: left;
+    width: 25%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    overflow: auto;
+    position: relative;
+    background-color: #378C3F;
+    border-radius: 2px;
+    height: 25%;
+    -moz-box-shadow: -2px 2px 2px 2px #ccc;
+    -webkit-box-shadow: -2px 2px 2px 2px #ccc;
+    box-shadow: -2px 2px 2px 2px #ccc;
+}
+
+.workexcolumn::after {
+    clear: left;
+}
+
+/* Clear floats after the columns */
+
+.workexrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-shadow: 5px #A9A9A9;
+}
+
+.workexcolumn h4 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.workexcolumn h6 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.workexcolumndate h4 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 10px;
+}
+
+.workexcolumndate h6 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+.headerworkexp h2 {
+    font-family: 'Montserrat';
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+    .workexcolumn{
+        display: block;
+        width: auto;
+        height: auto;
+        float: left;
+        margin-top: 2px;
+        margin-bottom: 20px;
+        padding: 1px;
+        padding-left: 20px;
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .workexcolumndate {
+        display: block;
+        width: auto;
+        height: auto;
+        float: left;
+        margin-top: 2px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        padding: 0px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrapperworkex {
+        display: block;
+        margin-bottom: 200%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrappereducation {
+        display: block;
+        margin-bottom: 200%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+/*----------------------------------PRICES--------------------------------------------------------*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_profile_card*/
+
+#wrapperprices {
+    width: 80%;
+    margin: 0 center;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 600px;
+}
+
+.pricecard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 28%;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    display: inline-block;
+    height: 100%;
+}
+
+.features {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 14px;
+    color: #2C2C2C;
+    padding-bottom: 1px;
+}
+
+.features hr {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 0px;
+}
+
+.features a {
+    color: green;
+    text-decoration: none;
+}
+
+.featurecontact {
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.pricedivisions {
+    height: 25%;
+}
+
+.pricedivisions h1 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.pricedivisions h6 {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    #wrapperprices {
+        display: block;
+        margin-bottom: 100%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pricecard {
+        float: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: auto;
+        margin-left: 30px;
+        display: block;
+        height: auto;
+        margin-bottom: 10%;
+    }
+}
+
+/*---------------------------------------PORTFOLIO------------------------------------------------------------*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs*/
+/*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-laptop*/
+#wrapperportfolio {
+    width: 80%;
+    margin: 0 center;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    height: 600px;
+}
+
+.portfoliotabs {
+    margin-left: 40%;
+}
+
+.portfoliotabs .fa {
+    border-radius: 50%;
+    margin: 5px 2px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.portfoliotabs a.active {
+    background-color: #378C3F;
+}
+
+.portfoliotabs a:visited {
+    background-color: #FFFFFF;
+}
+
+.fa-laptop.active {
+    color: #FFFFFF;
+}
+
+.fa-laptop {
+    color: #FFFFFF;
+    background: #378C3F;
+}
+
+.fa-image.active {
+    color: #FFFFFF;
+}
+
+.fa-image {
+    background: whitesmoke;
+    color: grey;
+}
+
+.fa-camera.active {
+    color: #FFFFFF;
+}
+
+.fa-camera {
+    background: whitesmoke;
+    color: grey;
+}
+
+/* Clear floats after the columns */
+
+.portfolioheading h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.projectrow1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.project1 {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.image {
+    width: 95%;
+    height: 50%;
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    margin-left: 5%;
+    transition: .2s ease;
+}
+
+.project1:hover .overlay {
+    width: 95%;
+    height: 92%;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.text h2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text h5 {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #wrapperportfolio {
+        margin-bottom: 150%;
+        margin-right: 10%;
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 600px) {
+   .portfoliotabs{
+        display: block;
+        width: auto;
+        float: none;
+        margin-left: 20%;
+        margin-right: auto;
+    }
+}
+/*-------------------------------------------LOGIN------------------------------------------------------*/
+/*SITE REFERRED FOR LOGIN AND SIGN UP FORM:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal*/
+/* Full-width input fields */
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 20px;
+    border-style: ridge;
+}
+
+.loginheading h2 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 6%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    color: #FFFFFF;
+    background-color: grey;
+    margin-right: 60%;
+    margin-left: 5%;
+}
+
+/* Center the image and position the close button */
+
+.cross {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.containername {
+    padding: 30px;
+    margin-bottom: -5%;
+}
+
+.containeremail {
+    padding: 30px;
+    margin-bottom: -5%;
+}
+
+.container {
+    padding: 30px;
+    margin-bottom: -5%;
+}
+
+.containerconfirmpwd {
+    padding: 30px;
+}
+
+.container1 {
+    padding: 30px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 45%;
+    /* Could be more or less, depending on screen size */
+    height: 60%;
+}
+
+.modal-contentsignup {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 45%;
+    /* Could be more or less, depending on screen size */
+    height: 100%;
+}
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/*----------------------------------------------------REFERENCES----------------------------------------------*/
+/*---SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow----*/
+#wrapperreference {
+    width: 80%;
+    margin: 0 center;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    height: 300px;
+}
+
+
+* {box-sizing: border-box}
+
+.mySlides {
+display: block;
+}
+.referenceheading h3{
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2%;
+}
+.feedback p.clear{
+    margin-top:5%;
+    text-align: center;
+    clear:right;
+
+}
+.imagereference{
+    width: 18%;
+    height:45%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+    
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.line {
+  cursor: pointer;
+  height: 3px;
+  width: 20px;
+  margin-top: 10%;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.captionimage{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin-top: 18%;
+    margin-left: 7%;
+    position: absolute;
+    text-align: center;
+}
+.active, .line:hover {
+  background-color: #378C3F;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.rowreferences{
+width: 80%;
+margin-top: 5%;
+margin-bottom: 10%;
+margin-left: 10%;
+font-family: 'Montserrat';
+overflow: auto;
+position: relative;
+height: 80%;
+-moz-box-shadow: 0px -1px 6px 4px #ccc;
+-webkit-box-shadow: 0px -1px 6px 4px #ccc;
+box-shadow: 0px -1px 6px 4px #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    #wrapperreference{
+        margin-bottom: 100%;
+        margin-right: 10%;
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .captionimage{
+        font-family: 'Montserrat';
+        font-weight: 300;
+        margin-top: auto;
+        margin-left: auto;
+        position: relative;
+    }
+}
+/*--------------------------------------ADMIN------------------------------------------------------------*/
+#wrapperadmin {
+    width: 80%;
+    margin: 0 center;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    height: 900px
+}
+* {box-sizing: border-box}
+
+#admincontainer{
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 2px;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat';
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
