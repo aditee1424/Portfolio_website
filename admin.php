@@ -70,7 +70,7 @@
             <?php
             if (isset($_POST["updateimage"])) {
                 
-            $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+            $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                       $imagename=$_FILES["myimage"]["name"]; 
                       echo "<script>(function(){alert('$imagename');})();</script>";
@@ -93,7 +93,7 @@
                         
                   if (isset($_POST["viewimage"])) {
                        
-                             $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                             $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                           
                             $query = "SELECT Image FROM `PortfolioImage` WHERE Title='Aditee D Dakhane'";
@@ -110,7 +110,7 @@
               
             if (isset($_POST["updateage"])) {
                   if (!empty($_POST['age'])) {
-                    $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                    $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newage = $_POST['age'];
                         $query = "UPDATE `About` SET `Age`=$newage WHERE UserId=7";
@@ -127,7 +127,7 @@
             }
 
             if (isset($_POST["delete"])) {
-   $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+   $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                   $query = "DELETE FROM `About` WHERE UserId=7";
 
@@ -172,7 +172,7 @@
 
             if (isset($_POST["view"])) {
 
-                  $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                  $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                   $query = "SELECT Age,Email,Phone,Address,Language,About_Info FROM About";
                   $result = mysqli_query($con, $query);
@@ -206,7 +206,7 @@
             }
             if (isset($_POST["updateemail"])) {
                   if (!empty($_POST['Email'])) {
-                        $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                        $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newemail = $_POST['Email'];
 
@@ -225,7 +225,7 @@
 
             if (isset($_POST["updatelanguage"])) {
                   if (!empty($_POST['language'])) {
-                   $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                   $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newlanguage = $_POST['language'];
                         $query = "UPDATE `About` SET `Language`='$newlanguage' WHERE UserId=7";
@@ -243,7 +243,7 @@
 
             if (isset($_POST["updatephone"])) {
                   if (!empty($_POST['phone'])) {
-         $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+         $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newphone = $_POST['phone'];
                         $query = "UPDATE `About` SET `Phone`='$newphone' WHERE UserId=7";
@@ -261,7 +261,7 @@
 
             if (isset($_POST["updateaddress"])) {
                   if (!empty($_POST['address'])) {
-                $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newaddress = $_POST['address'];
                         $query = "UPDATE `About` SET `Address`='$newaddress' WHERE UserId=7";
@@ -279,7 +279,7 @@
 
             if (isset($_POST["updateabout"])) {
                   if (!empty($_POST['aboutinfo'])) {
-             $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+             $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
                         $newabout = $_POST['aboutinfo'];
                         $query = "UPDATE `About` SET `About_Info`='$newabout' WHERE UserId=7";
