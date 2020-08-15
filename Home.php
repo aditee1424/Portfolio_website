@@ -15,8 +15,7 @@
 
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <script>
-            /* SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs*/
-            /*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-laptop*/
+         
             function openTab(evt, tabName) {
                   var i, tablaptop, falaptop;
                   tablaptop = document.getElementsByClassName("tabcontent");
@@ -30,7 +29,7 @@
                   document.getElementById(tabName).style.display = "block";
                   evt.currentTarget.className += " active";
             }
-            /*SITE REFERRED FOR LOGIN AND SIGN UP FORM:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal*/
+       
 
             // Get the modal
             var modal = document.getElementById('id01');
@@ -53,7 +52,7 @@
             }
 
 
-            /*SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps*/
+           
 
 
 
@@ -100,10 +99,9 @@
 
 <body>
       <!-----------------------------------HOME------------------------------------------------------------->
-      <!--SITE REFERRED FOR THIs SECTION:https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float-->
-      <!--SITE REFERRED FOR LOGIN AND SIGN UP FORM:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal-->
+
       <?php
-      $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+      $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
       $query = "SELECT Image,Title,Jobs FROM `PortfolioImage`";
       $result = mysqli_query($con, $query);
@@ -118,8 +116,8 @@
                   <header class="homeheader">
                         <nav class="navpages">
                               <ul>
-                                    <li style="padding-right: 100px"><a href="#home"> ADITEE DAKHANE</a></li>
-                                    <li style="padding-right: 5px"><a href="http://aditee1411.uta.cloud/Dakhane_portfolio/Home.php"> HOME </a> </li>
+                                    <li style="padding-right: 100px"><a href="#home"> ADITEE</a></li>
+                                    <li style="padding-right: 5px"><a href="http://abcd"> HOME </a> </li>
 
                                     <li style="padding-right: 5px"><a href="#wrapperabout">ABOUT</a></li>
                                     <li style="padding-right: 5px"><a href="#wrapperabout">SKILLS</a> </li>
@@ -161,11 +159,11 @@
       </div>
 
       <!-----------------------------------ABOUT------------------------------------------------------------->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_progressbar_size-->
+     
       <?php
       
            
-            $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+            $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
             $query = "SELECT Age,Email,Phone,Address,Language,About_Info FROM About";
@@ -320,11 +318,9 @@
 
 
       <!-------------------------------------------------PORTFOLIO------------------------------------------------>
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs-->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-laptop-->
-      <!--SITE REFERRED FOR THIS SECTION: https://templateflip.com/demo/?template=creative-cv-->
+
       <?php
-        $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+        $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
       $query = "SELECT Imagename,Image FROM `Images` WHERE ProjectId=1";
       $result = mysqli_query($con, $query);
@@ -694,7 +690,7 @@
 
       <!-----------------------------------WORK EXPERIENCE------------------------------------------------------------->
       <?php
-   $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+   $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
       $query = "SELECT StartMonth,StartYear,EndMonth,EndYear,Company,Position,Description FROM Work where WorkId=11";
@@ -816,7 +812,7 @@
       </div>
       <!-----------------------------------------------EDUCATION----------------------------------------------------->
       <?php
-       $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+       $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
       $query = "SELECT StartMonth,StartYear,EndMonth,EndYear,Level,Degree,School FROM Education where EduId=21";
@@ -936,7 +932,7 @@
 
       </div>
       <!-----------------------------------------------REFERENCES------------------------------------------------->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow-->
+     
       <div id="wrapperreference">
             <header class="contactheader">
                   <nav class="navpages">
@@ -1046,10 +1042,10 @@
       </div>
 
       <!------------------------------------------PRICES------------------------------------------------------------>
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_profile_card-->
+    
 
       <?php
-    $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+    $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
 
@@ -1227,10 +1223,9 @@
       </div>
 
       <!-------------------------------------CONTACT------------------------------------------------------------->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section -->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_icon-->
+     
       <?php
-       $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+       $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
       $query = "SELECT Email,Phone,Address,Language FROM About";
@@ -1246,7 +1241,7 @@
       if (isset($_POST["contactsubmit"])) {
             if (!empty($_POST['username']) && !empty($_POST['subject']) && !empty($_POST['email']) && !empty($_POST['message'])) {
 
-             $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+             $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
                   $name = $_POST['username'];
@@ -1377,7 +1372,7 @@
       </div>
 
       <!-----------------------------------------------LOGIN----------------------------------------------------->
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal-->
+     
       <div id="id01" class="modal">
 
             <form class="modal-content animate" method="post">
@@ -1409,7 +1404,7 @@
                         $pass = $_POST['psw'];
                         $admin_username = "admin";
                         $admin_password = "pass123#";
-                       $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                       $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
                         $query = mysqli_query($con, "SELECT UserId,RoleId FROM Users WHERE Username='$user'AND Password='$pass'");
@@ -1447,7 +1442,7 @@
             } ?>
       </div>
       <!-----------------------------------------------------SIGNUP------------------------------------------------------>
-      <!--SITE REFERRED FOR THIS SECTION:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal-->
+     
       <div id="id02" class="modal">
 
             <form class="modal-contentsignup animate" method="post" onSubmit="return validate();">
@@ -1494,7 +1489,7 @@
                         $user = $_POST['uname'];
                         $pass = $_POST['psw'];
 
-                      $con = mysqli_connect('utacloud.reclaimhosting.com', 'aditeeut_Aditee', 'Shaliniank24') or die(mysqli_connect_errno());
+                      $con = mysqli_connect('utacloud.reclaimhosting.com', '', '') or die(mysqli_connect_errno());
       mysqli_select_db($con, 'aditeeut_portfolio') or die("cannot select DB");
 
                         $query = mysqli_query($con, "SELECT * FROM Users WHERE Username='" . $user . "'");
